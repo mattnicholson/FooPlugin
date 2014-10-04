@@ -9,10 +9,13 @@ class FooController extends BaseController {
   protected $allowAnonymous = true;
   
   function actionText() {
+  
     $segments = craft()->request->actionSegments;
+    $serviceData = craft()->foo->getSomething();
     
     $data = array(
-      'text'=> $segments[2]
+      'segment'=> $segments[2],
+      'serviceData' => $serviceData
     );
    
     $this->renderTemplate('foo/text',$data);
