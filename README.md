@@ -9,6 +9,8 @@ What's it do
 Takes a segment from the action controller and displays it in the browser. Anonomous users allowed.
 Also makes a call to the FooService and outputs a property from the returned data in the template.
 
+…basically has a few things in it that are typical for plugin development that can be fleshed out with real code
+
 What's it for
 ------------
 
