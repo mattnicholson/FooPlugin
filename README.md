@@ -3,6 +3,11 @@ FooPlugin
 
 Jumping off point for CraftCMS plugin. Has a lot of the necessary files without too much bloat.
 
+What it does
+------------
+
+Takes a segment from the action controller and displays it in the browser
+
 Instructions
 ------------
 
