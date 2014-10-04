@@ -3,10 +3,11 @@ FooPlugin
 
 Jumping off point for CraftCMS plugin. Has a lot of the necessary files without too much bloat.
 
-What it does
+What's it do
 ------------
 
 Takes a segment from the action controller and displays it in the browser. Anonomous users allowed.
+Also makes a call to the FooService and outputs a property from the returned data in the template.
 
 What's it for
 ------------
