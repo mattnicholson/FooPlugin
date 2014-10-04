@@ -6,11 +6,18 @@ Jumping off point for CraftCMS plugin. Has a lot of the necessary files without 
 What it does
 ------------
 
-Takes a segment from the action controller and displays it in the browser
+Takes a segment from the action controller and displays it in the browser. Anonomous users allowed.
+
+What's it for
+------------
+
+Copying and re-purposing into an actual, usable plugin
+
 
 Instructions
 ------------
 
+- Upload to craft/plugins/
 - Open Craft
 - Install plugin
 - Go to /actions/foo/text/{something}
